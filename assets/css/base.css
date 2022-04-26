@@ -1,0 +1,57 @@
+:root{
+    --background-color: #f9fafd;
+    --primary-color: #656D78;
+    --primary-variant:#1E90FF;
+    --white-color: #fff;
+    --title-color:#333;
+    --brown-color: #a17550;
+    --star-gold-color:#ffce3e;
+
+
+
+    --header-height: 96px;
+    --navbar-height: 45px;
+
+}
+
+*{
+    box-sizing: inherit;
+    padding: 0px;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.attr-common{
+    padding: 1.4rem 0;
+    box-shadow: 0 0 20px 0 #00000008;
+    background-color: var(--white-color);
+    border: 1px solid var(--white-color);
+    overflow: hidden;
+    position: relative;
+}
+.attr-common-price{
+    font-size: 2.4rem;
+    line-height: 3.8rem;
+    font-weight: 700;
+    color: var(--brown-color);
+    letter-spacing: inherit;
+}
+.attr-common-title{
+    font-size: 2.2rem;
+    line-height: 3.5rem;
+    font-weight: 600;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 8px;
+    color: var(--title-color);
+}
+.common-des{
+    text-align: center;
+}
+

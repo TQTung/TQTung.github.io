@@ -1,0 +1,124 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px){
+    .hide-on-mobile-table{
+        display: none;
+    }
+    .header {
+        --header-height:82px;
+        height: var(--header-height);
+    }
+    .header__navbar-bar-link{
+        display: inline-block;
+    }
+    .header__navbar-cart-number{
+        right: -3px;
+        bottom:21px;
+    }
+    .header__navbar-icon{
+        font-size: 2.4rem;
+    }
+    .header__navbar-logo .navbar-img img{
+        --header-height: 30px;
+        max-height: var(--header-height);
+    }
+    .store-product-intro-item{
+        padding-bottom:16px;
+    }
+    .combo__des-price,
+    .combo__des-star{
+        text-align: center;
+    }
+    
+}
+
+/* Tablet */
+@media(min-width: 740px) and (max-width: 1023px){
+    .hide-on-tablet{
+        display: none;
+    }
+    .attr-common{
+        margin-top: 4.4rem;
+    }
+    .store-product-intro{
+        padding: 6rem 0 0 0;
+    }
+    .product__combo{
+        display: block;
+    }
+    .combo__img-link img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .footer-page__path{
+        margin-top: 24px;
+    }
+    .css_item{
+        flex:1;
+    }
+    .combo__des-contain {
+        width: 100%;
+    }
+}
+
+/* Mobile */
+@media(max-width: 739px){
+    
+    .hide-on-mobile{
+        display: none;
+    }
+    .header__navbar{
+        padding:24px;
+    }
+    .banner-intro img{
+        width: 200px;
+    }
+    .banner-intro .banner-intro__title {
+        padding: 10rem 0;
+        font-size: 6rem;
+        line-height: 3rem;
+    }  
+    .product-list__item3{
+        margin: 3.6rem 0;   
+    }
+    .attr-common {
+        margin-top: 36px;
+    }
+    .store-product-intro {
+        padding: 4.8rem 0 0 0;
+    }
+    .product__combo {
+        display: block;
+    }
+    .combo__img-link img {
+        width: 50%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .combo__des-contain {
+        max-width: 46%;
+    }
+    .footer-page__info-title{
+        padding: 8px 16px;
+    }
+    .footer-page__info-social{
+        justify-content: center;
+    }
+    .css_item{
+        margin-top: 24px;
+    }
+    .footer-page__path-title,
+    .footer-page__info-title,
+    .footer-page__info-logo{
+        text-align: center;
+    }
+    .path-titles{
+        text-align: center;
+    }
+    .path-item .links{
+        padding:0 8px;
+    }
+    .header__navbar-cart-number{
+        align-items: center;
+    }
+}
